@@ -1,0 +1,1 @@
+<p style="text-align:center"><a href="users.php">Usuários</a> | <a href="index.php">Ocorrências</a></p>

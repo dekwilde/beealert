@@ -1,7 +1,8 @@
 <?php
 
+
 // A list of permitted file extensions
-$allowed = array('png', 'jpg', 'gif','zip', 'pdf');
+$allowed = array('png','jpg','gif','zip','pdf');
 
 if(isset($_FILES['upl']) && $_FILES['upl']['error'] == 0){
 
@@ -11,8 +12,15 @@ if(isset($_FILES['upl']) && $_FILES['upl']['error'] == 0){
 		echo '{"status":"error"}';
 		exit;
 	}
-
-	if(move_uploaded_file($_FILES['upl']['tmp_name'], '../uploads/'.$_FILES['upl']['name'])){
+	
+	session_start();
+	$nome = $_FILES["upl"]["name"];
+	$token = md5(uniqid(rand(), true));
+	$rename = substr($nome,0,strpos($nome,".")). $token .substr($nome,strpos($nome,"."));
+	
+	if(move_uploaded_file($_FILES['upl']['tmp_name'], '../uploads/'.basename($rename))){
+		$_SESSION["arquivo_upload"][] = $rename;
+		
 		echo '{"status":"success"}';
 		exit;
 	}

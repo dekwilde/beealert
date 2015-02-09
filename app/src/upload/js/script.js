@@ -25,8 +25,6 @@ $(function(){
             tpl.find('p').text(data.files[0].name)
                          .append('<i>' + formatFileSize(data.files[0].size) + '</i>');
 
-		    arquivo_upload.push(data.files[0].name);
-
             // Add the HTML to the UL element
             data.context = tpl.appendTo(ul);
 

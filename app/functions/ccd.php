@@ -41,7 +41,13 @@
 	
 	$obs			= $_POST["obs"];
 	$refer			= $_POST["refer"];
-	$arquivo		= $_POST["arquivo"];
+	if(isset($_SESSION["arquivo_upload"])) {
+		$arquivo	= implode(",",$_SESSION["arquivo_upload"]);	
+	} else {
+		$arquivo = "";
+	}
+	
+	
 	
 	if($step == "1") { 
 		if($mode == "new") {
@@ -99,6 +105,7 @@
 	}
 	
 	if($step == "6") { 
+		
 
 		$sql = "UPDATE ccd SET
 							arquivo 	= '$arquivo',

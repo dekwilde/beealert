@@ -397,7 +397,7 @@ function Login() {
 
 
 
-/////////////////////////////////////////////////////////////// 6 PASSO - Dados Científicos ///////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////// 6 PASSO - Upload ///////////////////////////////////////////////////
 
 
 $("#formCCD6 #btSubmit").click(function(e){
@@ -414,7 +414,6 @@ $("#formCCD6 #btSubmit").click(function(e){
 		dataType: 'json',
 		async: true,
 		data:{
-			arquivo:arquivo_upload.toString(),
 			obs:obs,
 			refer:refer
            	

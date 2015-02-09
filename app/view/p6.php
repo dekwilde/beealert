@@ -32,7 +32,7 @@
 			<div id="drop">
 				Arraste aqui
 				<a data-role="button" data-theme="b" data-icon="arrow-d" data-iconpos="bottom">Selecionar</a>
-				<input type="file" name="upl" id="upl" multiple />
+				<input type="file"  name="upl"  id="upl" <?php $android = stripos($_SERVER['HTTP_USER_AGENT'],"Android"); if(!$android) { echo "multiple"; } ?> />
 			</div>
 
 			<ul>

@@ -5,6 +5,7 @@
 	$mode =	$_SESSION['mode'];
 	$user_id = $_SESSION['user_id'];
 	
+	/*
 	//Check CAPTCHA
 	$captcha = $_POST["captcha"];
 	if($_SESSION['captcha']['code'] != $captcha) {
@@ -14,6 +15,7 @@
 		echo json_encode($data); 
 		die;
 	}
+	*/
 	
 	
 	

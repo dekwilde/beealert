@@ -61,7 +61,7 @@ $(document).ready(function(){
 
 
 		var mapOptions = {
-		  	zoom: 1,
+		  	zoom: 3,
 		  	center: latlng,		
 			navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
 			mapTypeControlOptions: {
@@ -181,6 +181,7 @@ $(document).ready(function(){
 		}
 	}
 	function ipLocation() {
+		
 		geocoder = new google.maps.Geocoder();
 		$.get("http://ipinfo.io", function(response) {
 			address = response.city + ", " + response.region + ", " + response.country;
@@ -196,12 +197,22 @@ $(document).ready(function(){
 				} else {
 					lat = 0;
 					lng = 0;
+					initMapCCD("error");
 				}
 		   	});
 
 		}, "jsonp");
-		return true;	
+		return true;
 	}
+	
+	function noLocation() {
+		lat = 0;
+		lng = 0;
+		
+		setTimeout(function() {initMapCCD("error");}, 3000);
+		return true;
+	}
+	
 
 	function success(position) {
 		mapPosition = position;
@@ -220,7 +231,7 @@ $(document).ready(function(){
 
 
 	//google.maps.event.addDomListener(window, 'load', getLocation); //get current Position
-	google.maps.event.addDomListener(window, 'load', ipLocation); // without current position
+	google.maps.event.addDomListener(window, 'load', noLocation); // without current position
 
 
 

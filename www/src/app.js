@@ -296,7 +296,7 @@ $( "#btSign" ).click(function() {
 					alert(error_double);
 				}
 				if(data.status == "captcha") {
-					alert("Verifica o código de verificação, lembre-se em utilizar também as letras Maiúsculas");
+					alert("Verifique o código de verificação, lembre-se em utilizar também as letras Maiúsculas");
 				}
 	        },
 	        error: function(){

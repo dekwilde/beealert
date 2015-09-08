@@ -4,7 +4,9 @@
         <a data-controltype="panelbutton" data-role="button" href="#panel" data-icon="bars"
         data-iconpos="notext">
         </a>
+		
 		<img src="img/beealert-branco.png" border="0" height="38px" style="margin:2px 0px" />
+		<div class="ui-btn-right"><?php require("includes/lang-menu.php"); ?></div>
     </div>
     <div data-role="content">
 		<h3 style="text-align:center; margin-top:0px" ><?php echo $chamada; ?></h3>
@@ -14,7 +16,7 @@
 		
 		<ul data-role="listview" data-divider-theme="a" data-count-theme="b" data-inset="true">
             <li data-role="list-divider" role="heading">
-                Total de colmeias afetadas <span class="ui-li-count"><?php include("functions/count.php"); ?></span>
+                <?php echo $index_total; ?> <span class="ui-li-count"><?php include("functions/count.php"); ?></span>
             </li>
         </ul>
 		
@@ -74,6 +76,7 @@
             <div class="ui-block-a">
 				<div data-role="collapsible-set" data-theme="a" data-content-theme="a" data-collapsed-icon="false" data-expanded-icon="false" style="text-align:center">
 		            <div data-role="collapsible" data-collapsed="false">
+						<?php if($lang == "br") {?>
 						<p style="font-size: small; text-align:center;">
 							Não tem e-mail? Não deixe de participar!		
 						</p>
@@ -81,6 +84,7 @@
 							<a data-role="button" data-transition="slide" data-theme="a" data-inline="true"
 				        	data-icon="arrow-d" data-iconpos="right" data-ajax="false" target="_blank" href="../uploads/QUESTIONARIO-BEEALERT.docx">Formulário Impresso</a>
 						</p>
+						<?php } ?>
 					</div>
 				</div>
 			</div>

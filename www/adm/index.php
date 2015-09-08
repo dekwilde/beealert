@@ -72,6 +72,10 @@
 		    </tr>
 			
   <?php while ( $row = mysql_fetch_assoc( $rs ) ) : ?>
+	
+	
+	
+	
     <tr align="center">
         <td align="center"><?php echo $row['id'] ; ?></td>
         <td align="center"><?php echo $row['user_id'] ; ?></td>
@@ -95,7 +99,20 @@
 		<td align="center"><?php echo $row['propdados'] ; ?></td>
 		<td align="center"><?php echo $row['moeda'] ; ?></td>
 		<td align="center"><?php echo $row['perdidos'] ; ?></td>
-		<td align="center"><a href="../uploads/<?php echo $row['arquivo'] ; ?>" target="_blank"><?php echo $row['arquivo'] ; ?></a></td>
+		<td align="center">
+			<?php
+				$arquivos = explode(",", $row['arquivo']);
+				foreach ($arquivos as $value) {
+			?>
+				<a href="../uploads/<?php echo $value; ?>" target="_blank"><?php echo $value; ?></a>
+				
+			<?php
+				}
+			
+			?>
+			
+			
+		</td>
 		<td align="center"><?php echo $row['obs'] ; ?></td>
 		<td align="center"><?php echo $row['refer'] ; ?></td>
 		<td align="center"><?php echo $row['regra'] ; ?></td>

@@ -28,12 +28,12 @@ data-theme="a">
         </li>
 		<li data-theme="a">
             <a href="#polinizadores"  data-transition="slide">
-                Polinizadores do Brasil
+                Projeto<br>Polinizadores<br>do Brasil
             </a>
         </li>
 		<li data-theme="a">
-            <a href="#fazer"  data-transition="slide">
-                Procedimento
+            <a href="http://www.semabelhasemalimento.com.br/como-proceder-ao-encontrar-um-apiario-contaminado/" data-ajax="false" target="_blank"  data-transition="slide">
+                Em caso de<br>Contaminação
             </a>
         </li>
 		<li data-theme="a">

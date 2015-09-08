@@ -78,6 +78,27 @@ body {
 	background-color:black;
 }
 
+#mapa-count {
+	position: absolute;
+	bottom: 0px;
+	background-color: #FFCC00;
+	width: 98%;
+	padding: 10px 1%;
+	text-align:center;
+}
+
+#mapa-countnum {
+	font-weight: bold;
+}
+#mapa-tit {
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+	color: white;
+	text-shadow: black 1px 1px 5px;
+}
+
 #map-embed {
 	position: absolute;
     width:100%;

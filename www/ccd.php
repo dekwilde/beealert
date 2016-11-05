@@ -22,7 +22,6 @@
 <?php require("view/p5.php");?>
 <?php require("view/p6.php");?>
 <?php require("view/concluido.php");?>
-<?php include("view/sobre.php");?>
 
 </body>
 </html>

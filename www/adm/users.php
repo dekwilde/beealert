@@ -31,8 +31,6 @@
 				<td align="center">cep</td>
 				<td align="center">telefone</td>
 				<td align="center">celular</td>
-				<td align="center">escolaridade</td>
-				<td align="center">Profissão</td>
 				<td align="center">Atividade</td>
 				<td align="center">Abelhas</td>
 				<td align="center">Exploração</td>
@@ -52,8 +50,6 @@
         <td align="center"><?php echo $row['cep'] ; ?></td>
 		<td align="center"><?php echo $row['fone'] ; ?></td>
 		<td align="center"><?php echo $row['celular'] ; ?></td>
-		<td align="center"><?php echo $row['escolaridade'] ; ?></td>
-		<td align="center"><?php echo $row['profissao'] ; ?></td>
 		<td align="center"><?php echo $row['atividade'] ; ?></td>
 		<td align="center"><?php echo $row['abelhas'] ; ?></td>     
 		<td align="center"><?php echo $row['exploracao'] ; ?></td>

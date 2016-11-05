@@ -1,0 +1,26 @@
+[09-Feb-2015 07:06:47] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:06:55] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:07:20] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:09:13] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:11:46] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:13:34] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:13:56] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:15:03] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:16:18] PHP Warning:  include(../includes/conecta.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 3
+[09-Feb-2015 07:16:18] PHP Warning:  include(../includes/conecta.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 3
+[09-Feb-2015 07:16:18] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../includes/conecta.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 3
+[09-Feb-2015 07:16:18] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:16:18] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 112
+[09-Feb-2015 07:17:09] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:18:17] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:24:32] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 44
+[09-Feb-2015 07:26:02] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 45
+[09-Feb-2015 07:26:04] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 45
+[09-Feb-2015 07:26:07] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 45
+[09-Feb-2015 07:26:08] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 45
+[09-Feb-2015 07:26:40] PHP Fatal error:  Cannot use [] for reading in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 45
+[09-Feb-2015 07:27:02] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 45
+[09-Feb-2015 07:27:37] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/web6p071/semabelhasemalimento/beealert/functions/ccd.php on line 45
+[07-Mar-2015 09:31:33] PHP Warning:  POST Content-Length of 104193825 bytes exceeds the limit of 67108864 bytes in Unknown on line 0
+[07-Mar-2015 09:35:42] PHP Warning:  POST Content-Length of 71305667 bytes exceeds the limit of 67108864 bytes in Unknown on line 0
+[27-Nov-2015 20:31:19] PHP Warning:  POST Content-Length of 116798304 bytes exceeds the limit of 67108864 bytes in Unknown on line 0

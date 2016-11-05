@@ -1,4 +1,4 @@
-
+<?php require("lang.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,11 +8,6 @@
   	<meta name="apple-mobile-web-app-capable" content="yes">
   	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="apple-touch-icon" href="img/logo.png"/>
-	
-	
-	
-	<?php require("lang.php"); ?>
-	
 
 	<meta name="description" content="<?php echo $descricao; ?>"/>
   	<meta name="keywords" content="georeferenciamento, sumiço de abelhas, colapso das abelhas, cetapis, abelhas, beealert, geolocator, bee alert, beelaert geolocator, bee alert geolocator, desaparecimento, ocorrências, desaparecimento das abelhas, ccd bee, bee no food, bee or not to bee"/>
@@ -58,7 +53,7 @@
 
 	<script src="src/tracker.js"></script>
 	<link href="src/theme.css" rel="stylesheet">
-	
+	<?php require("lang-js.php"); ?>
 	
 	
 	

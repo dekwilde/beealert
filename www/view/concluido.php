@@ -17,12 +17,6 @@
 		<a data-role="button" data-theme="b" data-icon="facebook-square" data-iconpos="right" href="https://www.facebook.com/sharer/sharer.php?u=http://www.semabelhasemalimento.com.br/beealert/" data-ajax="false" target="_blank">
 		 	<?php echo $concluido_bt_facebook; ?>
 		</a>
-		<a data-role="button"  data-icon="check" data-iconpos="right" href="#polinizadores" data-ajax="false" target="_blank">
-		 	Conheça o Projeto Polinizadores do Brasil
-		</a>
-		<a data-role="button"  data-icon="check" data-iconpos="right" href="#fazer" data-ajax="false" target="_blank">
-		 	Procedimento em caso de Ocorrencias de Contaminação
-		</a>
         <a data-role="button" data-direction="reverse" data-transition="flow"
         data-theme="a" href="#" onClick="go('ccd.php?mode=new')" data-icon="plus" data-iconpos="right">
             <?php echo $concluido_bt_new; ?>

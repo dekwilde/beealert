@@ -3,7 +3,6 @@
 <body>
 	
 <?php include("view/home.php");?>
-<?php include("view/sobre.php");?>
 
 </body>
 </html>

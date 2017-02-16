@@ -36,7 +36,11 @@
 	<script src="src/jquery/jquery.mask.js"></script>
 	<script src="src/codiqa.ext.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization"></script>
-	<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer_compiled.js"></script>
+	<script type="text/javascript" src="src/markerclusterer/markerclusterer.js"></script>
+	
+	
+	
+	
 
 
 	<link rel="stylesheet" type="text/css" href="http://cdn.jtsage.com/datebox/latest/jqm-datebox.min.css">

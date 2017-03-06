@@ -1,7 +1,7 @@
 <?php require( 'includes/conecta.php' ); ?>
 <?php
 	$user_id = $_SESSION['user_id'];
-	$sql_los ="SELECT * FROM ccd WHERE user_id = $user_id ORDER BY mes ASC";
+	$sql_los ="SELECT * FROM ccd WHERE user_id = $user_id ORDER BY STR_TO_DATE(mes,'%d/%m/%Y') ASC";
 	$rs_los = mysql_query( $sql_los, $conn ) or die( 'Ocorreu um erro. Erro: ' . mysql_error()  );
 	$row_num = mysql_num_rows($rs_los);
 ?>

@@ -93,10 +93,23 @@
                 </li>
             </ul>
 
-            <a id="btSubmit" data-role="button" data-transition="slide" data-theme="b"
-            href="#" data-icon="arrow-r" data-iconpos="right">
-                <?php echo $bt_next; ?>
-            </a>
+            <div class="ui-grid-a ui-responsive">
+                <div class="ui-block-a">    
+                    <a data-role="button" data-transition="slide" data-theme="b"
+                href="#" href="javascript:history.back(1)" data-rel="back" data-icon="arrow-l" data-iconpos="left">
+                        <?php echo $bt_prev; ?>
+                    </a>
+                </div>
+                <div class="ui-block-b">
+                    <a id="btSubmit" data-role="button" data-transition="slide" data-theme="b"
+                href="#" data-icon="arrow-r" data-iconpos="right">
+                        <?php echo $bt_next; ?>
+                    </a>
+                </div>
+            </div>
+
+
+
 			<!-- <input type="submit" data-theme="a" data-icon="arrow-d" data-iconpos="bottom" value="Submit"> -->
         </form>
     </div>

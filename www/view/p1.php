@@ -23,7 +23,7 @@
 			<input name="mes" id="mes" type="text"  min="2013-01-01" value="<?php echo $row["mes"]; ?>" data-role="datebox" 
 								data-options='{"mode":"calbox", "minYear": 2013, "beforeToday": true,  "useSetButton":true, "useInline": true, "useImmediate":true}'>
 
-			<!-- <input type="submit" data-theme="b" data-icon="arrow-r" data-iconpos="right" value="Próximo"> -->
+			
 			<a id="btSubmit" data-role="button" data-transition="slide" data-theme="b"
             href="#" data-icon="arrow-r" data-iconpos="right">
                 <?php echo $bt_next; ?>

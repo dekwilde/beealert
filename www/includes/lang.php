@@ -27,6 +27,7 @@
 		$chamada = "Comunicar é proteger";
 		$bt_select = "Selecinar...";
 		$bt_next = "Próximo";
+		$bt_prev = "Anterior";
 		$opt_sim = "Sim";
 		$opt_nao = "Não";
 		
@@ -319,6 +320,7 @@
 		$chamada = "Communicate to protect";
 		$bt_select = "Select...";
 		$bt_next = "Next";
+		$bt_prev = "Previous";
 		$opt_sim = "Yes";
 		$opt_nao = "No";
 		
@@ -613,6 +615,7 @@
 		$chamada = "Comunicar es proteger";
 		$bt_select = "Seleccionar...";
 		$bt_next = "Próximo";
+		$bt_prev = "Anterior";
 		$opt_sim = "Si";
 		$opt_nao = "No";
 		

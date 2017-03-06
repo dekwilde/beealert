@@ -6,7 +6,7 @@
         </a>
 		
 		<img src="img/beealert-branco.png" border="0" height="38px" style="margin:2px 0px" />
-		<div class="ui-btn-right"><?php require("includes/lang-menu.php"); ?></div>
+		<div class="ui-btn-right" id="menu-lang"><?php require("includes/lang-menu.php"); ?></div>
     </div>
     <div data-role="content">
 		<h3 style="text-align:center; margin-top:0px" ><?php echo $chamada; ?></h3>

@@ -44,8 +44,20 @@ data-theme="a">
         <li data-role="list-divider" role="heading">
             <?php echo $menu_lang; ?>
         </li>
-        <li data-theme="a" style="height:40px;">
-            <?php require("lang-menu.php"); ?>
+       <li data-theme="a">
+            <a href="functions/lang.php?lang=br" id="br" data-transition="slide" data-ajax="false">
+                Português
+            </a>
+        </li>
+        <li data-theme="a">
+            <a href="functions/lang.php?lang=us" id="us" data-transition="slide"  data-ajax="false">
+                English
+            </a>
+        </li>
+        <li data-theme="a">
+            <a href="functions/lang.php?lang=es" id="us" data-transition="slide"  data-ajax="false">
+                Espanhol
+            </a>
         </li>
     </ul>
 </div>

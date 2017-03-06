@@ -112,17 +112,17 @@ body {
 	text-align:center;
 }
 
-
+#menu-lang {
+	display: both;
+}
 
 @media screen and (min-width: 1024px) {
-	.ui-mobile .ui-page {
-		width: 800px;
-		position: relative;
+	.ui-content {
+		max-width: 800px;
 		margin: auto;
-		overflow:hidden;
 	}
 	.ui-header, .ui-footer {
-		width: 800px !important;
+		max-width: 800px !important;
 		margin: auto;
 	}
 	.ui-mobile, .ui-mobile body {
@@ -134,4 +134,7 @@ body {
 	#map-canvas, #map-ccd {
 	    height: 400px;
 	}	
+	#menu-lang {
+		display: none;
+	}
 }

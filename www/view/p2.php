@@ -61,12 +61,12 @@ id="p2">
 	                <legend>
 	                    Você autoriza que o local de seu apiário seja mostrado no mapa da campanha? 
 	                </legend>
-	                <input id="apiariofixo" name="regra" value="sim" type="radio" <?php if($row['regra'] == "sim") { echo 'checked'; } ?>>
-	                <label for="apiariofixo">
+	                <input id="regrasim" name="regra" value="sim" type="radio" <?php if($row['regra'] == "sim") { echo 'checked'; } ?>>
+	                <label for="regrasim">
 	                    Sim
 	                </label>
-	                <input id="apiariomovel" name="regra" value="nao" type="radio" <?php if($row['regra'] == "nao") { echo 'checked'; } ?>>
-	                <label for="apiariomovel">
+	                <input id="regranao" name="regra" value="nao" type="radio" <?php if($row['regra'] == "nao") { echo 'checked'; } ?>>
+	                <label for="regranao">
 	                    Não
 	                </label>
 	            </fieldset>

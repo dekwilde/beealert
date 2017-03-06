@@ -14,16 +14,18 @@
             	<?php echo $concluido_desc; ?>
             </p>
         </div>
+
+        <a data-role="button" data-direction="reverse" data-transition="flow"
+        data-theme="a" href="home.php" data-icon="home" data-iconpos="right">
+            <?php echo $concluido_bt_home; ?>
+        </a>
+        
 		<a data-role="button" data-theme="b" data-icon="facebook-square" data-iconpos="right" href="https://www.facebook.com/sharer/sharer.php?u=http://www.semabelhasemalimento.com.br/beealert/" data-ajax="false" target="_blank">
 		 	<?php echo $concluido_bt_facebook; ?>
 		</a>
         <a data-role="button" data-direction="reverse" data-transition="flow"
         data-theme="a" href="#" onClick="go('ccd.php?mode=new')" data-icon="plus" data-iconpos="right">
             <?php echo $concluido_bt_new; ?>
-        </a>
-        <a data-role="button" data-direction="reverse" data-transition="flow"
-        data-theme="a" href="home.php" data-icon="home" data-iconpos="right">
-            <?php echo $concluido_bt_home; ?>
         </a>
         <a data-role="button" data-direction="reverse" data-transition="flow"
         data-theme="a" href="http://www.semabelhasemalimento.com.br" data-ajax="false" data-icon="check" data-iconpos="right">

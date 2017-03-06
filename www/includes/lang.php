@@ -223,7 +223,7 @@
 		$concluido_desc = "Registro efetuado com sucesso.";
 		$concluido_bt_facebook = "Divulgue o Bee Alert";
 		$concluido_bt_new = "Adicionar novo registro";
-		$concluido_bt_home = "Início";
+		$concluido_bt_home = "ENCERRAR";
 		$concluido_bt_link = "Faça parte da Comunidade";
 		$concluido_bt_link_span = "Bee or not to be";
 		$concluido_email = "Caso tenha dúvidas ou sugestões, envie um e-mail para";
@@ -509,7 +509,7 @@
 		$concluido_desc = "Event registered successfully.";
 		$concluido_bt_facebook = "Share the Bee Alert";
 		$concluido_bt_new = "Add new occurrence";
-		$concluido_bt_home = "Home page";
+		$concluido_bt_home = "FINISH";
 		$concluido_bt_link = "Sign the Petition";
 		$concluido_bt_link_span = "for bee protection";
 		$concluido_email = "If you have any questions or suggestions, send an email, send an e-mail to";
@@ -803,7 +803,7 @@
 		$concluido_desc = "Registro realizado con éxito.";
 		$concluido_bt_facebook = "Divulgue el Bee Alert";
 		$concluido_bt_new = "Agregar nuevo  registro";
-		$concluido_bt_home = "Inicio";
+		$concluido_bt_home = "TERMINAR";
 		$concluido_bt_link = "Firma la petición";
 		$concluido_bt_link_span = "para la protección de las abejas";
 		$concluido_email = "En el caso que tenga dudas o sugerencias, envíe un e-mail a";

@@ -113,7 +113,7 @@ body {
 }
 
 #menu-lang {
-	display: both;
+	display: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -135,6 +135,6 @@ body {
 	    height: 400px;
 	}	
 	#menu-lang {
-		display: none;
+		display: block;
 	}
 }

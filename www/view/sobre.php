@@ -1,6 +1,6 @@
 <div data-role="page" data-control-title="Sobre" id="sobre">
     <div data-theme="a" data-role="header" data-position="fixed">
-        <a data-role="button" href="#index" data-icon="back" data-iconpos="notext"
+        <a data-role="button" href="javascript:history.back(1)" data-rel="back" data-icon="back" data-iconpos="notext"
         class="ui-btn-left">
         </a>
         <h3>
@@ -90,9 +90,12 @@
 
 
 
+
+
+
 <div data-role="page" data-control-title="O que Fazer?" id="fazer">
     <div data-theme="a" data-role="header" data-position="fixed">
-        <a data-role="button" href="#index" data-icon="back" data-iconpos="notext"
+        <a data-role="button" href="javascript:history.back(1)" data-rel="back" data-icon="back" data-iconpos="notext"
         class="ui-btn-left">
         </a>
         <h3>
@@ -100,42 +103,14 @@
         </h3>
     </div>
     <div data-role="content">
-        <div data-controltype="textblock">
-			<h3>PROTOCOLO da CBA (Confederação Brasileira de Apicultura) PARA CASOS DE CONTAMINAÇÃO EM APIÁRIOS ou MELIPONÁRIOS</h3>
-			<p>No momento em que verificar um problema de morte ou perdas expressivas de abelhas por contaminação, siga as seguintes orientações:</p>
-			<p>1) Faça um amplo registro com fotos e videos do apiário afetado: fotografe e filme as colmeias por fora e por dentro, buscando o detalhe das abelhas mortas ou agonizando, cuidando para dar a real dimensão do problema. Registre ainda as floradas visitadas, o entorno e os cultivos próximos;</p>
-			<p>2) Colha amostras de abelhas mortas e do pólen coletado dentro da colmeia. Condicione-as em um recipiente limpo (preferencialmente um frasco de vidro ou plástico). Congele-as no freezer de sua geladeira, para que possa encaminhar a um laboratório para análise.  </p>
-			<p>3) Imediatamente comunique o caso à sua Associação Apícola e também à sua Federação;</p>
-			<p>4) Faça o Registro de sua ocorrência no  aplicativo Bee Alert, criado para  documentar  mortes e perdas expressivas de abelhas nos apiarios:<a href="http://www.google.com/url?q=http%3A%2F%2Fwww.semabelhasemalimento.com.br%2Fbeealert&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERlr_R3et_UfC_04Y5-SLDB4OLPg">www.semabelhasemalimento.com.br/beealert</a> . Os seus dados serão mantidos em sigilo, e você pode permitir o acesso ou não da informação sobre o local de seu apiário contaminado.  Os dados fornecidos serão utilizados para estudos científicos.</p>
-			<p>5) Faça um Boletim de ocorrência. Casos de contaminação podem ser considerados crimes ambientais.  Conheça algumas leis de interesse:</p>
-			<ul>
-			  <li>Lei dos Crimes Ambientais (Lei No. 9.605, de 12/02/1998):<a href="http://www.google.com/url?q=http%3A%2F%2Fwww.planalto.gov.br%2Fccivil_03%2Fleis%2Fl9605.htm&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGddFsjoXiogbhM0bhc1aG_9epAyQ">http://www.planalto.gov.br/ccivil_03/leis/l9605.htm</a></li>
-			  <li><a href="http://www.brasil.gov.br/economia-e-emprego/2012/10/regulamentada-aplicacao-aerea-de-agrotoxico">http://www.brasil.gov.br/economia-e-emprego/2012/10/regulamentada-aplicacao-aerea-de-agrotoxico</a></li>
-			</ul>
-			<p>6) Faça também o registro desta ocorrência junto aos órgãos públicos de proteção animal/vegetal de sua cidade ou estado: Secretaria de Defesa Agropecuária (SDA/MAPA); IBAMA; Polícia Ambiental, Ministério Público.</p>
-			<p>Telefones e dados úteis:</p>
-			<ul>
-			  <li>IBAMA: http://www.ibama.gov.br/servicos/como-denunciar Telefone: 0800-61-8080</li>
-			  <li><a href="http://www.google.com/url?q=http%3A%2F%2Fwww.greennation.com.br%2Fpt%2Fdica%2F37%2FEquipe-GreenNation%2FComo-denunciar-crimes-ambientais&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGkch0kMQYZQLiAHqxwM3oVdx7WUA">http://www.greennation.com.br/pt/dica/37/Equipe-GreenNation/Como-denunciar-crimes-ambientais</a></li>
-			</ul>
-			<p>7) Comunique  imediatamente  a ocorrência aos produtores rurais de sua região;</p>
-			<p>8) Convoque os veículos de mídia de sua região (radio, jornal, TV), para cobertura do ocorrido;</p>
-			<p>9) Se julgar conveniente, busque seus direitos junto ao seu advogado;</p>
-			<p>10) Cuide em tomar medidas preventivas, para evitar novas ocorrências.</p>
-			<ul>
-			  <li>Quando colocar colméias fora de sua propriedade, informe aos proprietários ou responsáveis pela área sobre a localização de seu apiário; certifique-se de que é permitido e seguro colocar as abelhas neste local;</li>
-			  <li>Mantenha atualizado os seus contatos junto aos produtores rurais próximos ao seu apiário, bem como à sua associação de apicultores; mantenha-os informado sobre a localização e mudanças de seu apiário;</li>
-			</ul>
-			<p>Obs: A legislação obriga o produtor rural a avisar ao apicultor, num raio de 6km e com 48hs de antecedência, quando ele for fazer a aplicação aérea de agrotóxicos; ter um canal de comunicação é fundamental para minimizar riscos de contaminação.</p>
-			
-        </div>
+        <iframe src="http://www.semabelhasemalimento.com.br/como-proceder-ao-encontrar-um-apiario-contaminado/" width="100%" height="800px"></iframe>
     </div>
 </div>
 
 
 <div data-role="page" data-control-title="Projeto Polinizadores do Brasil" id="polinizadores">
     <div data-theme="a" data-role="header" data-position="fixed">
-        <a data-role="button" href="#index" data-icon="back" data-iconpos="notext"
+        <a data-role="button" href="javascript:history.back(1)" data-rel="back" data-icon="back" data-iconpos="notext"
         class="ui-btn-left">
         </a>
         <h3>
@@ -225,7 +200,7 @@
 
 <div data-role="page" data-control-title="Tutorial" id="tutorial">
     <div data-theme="a" data-role="header" data-position="fixed">
-        <a data-role="button" href="#index" data-icon="back" data-iconpos="notext"
+        <a data-role="button" href="javascript:history.back(1)" data-rel="back" data-icon="back" data-iconpos="notext"
         class="ui-btn-left">
         </a>
         <h3>
@@ -279,5 +254,4 @@
 		        </div>
     </div>
 </div>
-
 

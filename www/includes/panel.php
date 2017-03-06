@@ -22,17 +22,17 @@ data-theme="a">
         </li>
 		<?php } ?>
 		<li data-theme="a">
-            <a href="#sobre"  data-transition="slide">
+            <a href="index.php#sobre"  data-transition="slide" data-ajax="false">
                 <?php echo $sobre; ?>
             </a>
         </li>
 		<li data-theme="a">
-            <a href="#polinizadores"  data-transition="slide">
+            <a href="index.php#polinizadores"  data-transition="slide" data-ajax="false">
                 Projeto<br>Polinizadores<br>do Brasil
             </a>
         </li>
 		<li data-theme="a">
-            <a href="http://www.semabelhasemalimento.com.br/como-proceder-ao-encontrar-um-apiario-contaminado/" data-ajax="false" target="_blank"  data-transition="slide">
+            <a href="index.php#fazer" data-ajax="false" data-transition="slide">
                 Em caso de<br>Contaminação
             </a>
         </li>

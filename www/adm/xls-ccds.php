@@ -40,7 +40,9 @@ array_push($data, array(
 	'Arquivo',
 	'Observações',
 	'Referencia',
-	'Regra'
+	'Regra',
+	'Registro'
+
 ));
 
  
@@ -78,7 +80,8 @@ while($row = mysql_fetch_assoc( $rs )) {
 		$row['arquivo'],
 		$row['obs'],
 		$row['refer'],
-		$row['regra']
+		$row['regra'],
+		$row['registro']
 	));
 	
 

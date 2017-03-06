@@ -37,7 +37,7 @@ data-theme="a">
             </a>
         </li>
 		<li data-theme="a">
-            <a href="#tutorial"  data-transition="slide">
+            <a href="index.php#tutorial" data-ajax="false"  data-transition="slide">
                 Tutorial
             </a>
         </li>

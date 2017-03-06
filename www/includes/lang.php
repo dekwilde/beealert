@@ -39,6 +39,7 @@
 		
 		//INDEX
 		$index_total = "Total de colmeias afetadas";
+		$index_casos = "Total de casos registrados";
 		$index_mapa = "O declínio de polinizadores no mundo é real. Veja no mapa as ocorrências geolocalizadas de mortes ou perdas expressivas de abelhas em apiários.";
 		$index_desc = "Bem vindo ao aplicativo Bee Alert, uma plataforma para que apicultores, meliponicultores e a comunidade científica registrem ocorrências de desaparecimento ou mortes de abelhas em seus apiários, contribuindo para a identificação de suas causas e a formação de um senso. Os dados são sigilosos, e serão utilizados para estudos científicos. E você pode ainda decidir se quer ou não que o local de seu apiário apareça neste mapa.<br>Participe! É rápido. É fácil. É seguro. É importante!";
 		$index_cadastro = "É seu primeiro acesso?";
@@ -332,6 +333,7 @@
 				
 		//INDEX
 		$index_total = "Total affected hives";
+		$index_casos = "Total registered cases";
 		$index_mapa = "Disappearance of bees is a real phenomenon occurring worldwide. The map shows locations and the number of cases.";
 		$index_desc = "Welcome to Bee Alert Geolocator, a platform for beekeepers and scientists to register cases of bee disappearance and losses throughout the world, contributing to the identification of the causes and making authorities aware of the extent of the problem. Participate! It’s fast. It’s easy. It’s safe. It’s important!";
 		$index_cadastro = "First access?";
@@ -627,6 +629,7 @@
 		
 		//INDEX
 		$index_total = "Total de colmenas afectadas";
+		$index_casos = "Total de casos registrados";
 		$index_mapa = "La desaparición de las abejas en el mundo es real. Vea en el mapa los lugares y cantidades de casos ya informados.";
 		$index_desc = "Bienvenido a Bee Alert Geolocator, una plataforma para que los apicultores y la comunidad científica registren los casos de desaparición y pérdida de abejas en todo el mundo, contribuyendo para la identificación de las causas.<br>Participe!!!! Es rápido. Es fácil. Es seguro. Es importante.";
 		$index_cadastro = "Es su primer acceso?";

@@ -18,6 +18,9 @@
             <li data-role="list-divider" role="heading">
                 <?php echo $index_total; ?> <span class="ui-li-count"><?php include("functions/count.php"); ?></span>
             </li>
+            <li data-role="list-divider" role="heading">
+                <?php echo $index_casos; ?> <span class="ui-li-count"><?php include("functions/casos.php"); ?></span>
+            </li>
         </ul>
 		
 		<div id="map-ccd" data-controltype="htmlblock"></div>

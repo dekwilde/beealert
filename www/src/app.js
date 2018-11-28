@@ -1063,12 +1063,14 @@ function initMapCCD(status) {
 	 		heatMapData.push(hObj); //push object onto array
 	 	}
 
+	 	
 		heatmap = new google.maps.visualization.HeatmapLayer({
 			data: heatMapData,
 			dissipating: false,
 			radius: 1,
 			map: ccd
 		});
+		
 
 		markerClusterer = new MarkerClusterer(ccd, markers, {
           maxZoom: null,

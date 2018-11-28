@@ -37,8 +37,8 @@
 
 	<script src="src/jquery/jquery.mask.js"></script>
 	<script src="src/codiqa.ext.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization"></script>
-	<script type="text/javascript" src="src/markerclusterer/markerclusterer.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcIU7eugABQnOuGKlGI9ZWGO5q2P07Igs&libraries=visualization"></script>
+	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 	
 	
 	

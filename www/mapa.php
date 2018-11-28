@@ -9,7 +9,7 @@
 	<title>Bee Alert Mapa</title>
 	
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcIU7eugABQnOuGKlGI9ZWGO5q2P07Igs&sensor=false&libraries=visualization"></script>
 	<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer_compiled.js"></script>
 	
 	
